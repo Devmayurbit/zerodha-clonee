@@ -29,7 +29,7 @@ function Stats() {
                    <div className='text-center'> 
                     <a href='#' className='mx-5' style={{textDecoration:'none'}}>Explore our Products  <FontAwesomeIcon icon={faLongArrowAltRight} />
 </a>
-                    <a href='' className='mx-4' style={{textDecoration:'none'}}>Try Kite  <FontAwesomeIcon icon={faLongArrowAltRight} />
+                    <a href='https://kite.zerodha.com/' className='mx-4' style={{textDecoration:'none'}}>Try Kite  <FontAwesomeIcon icon={faLongArrowAltRight} />
 </a>
                    </div>
                 </div>
