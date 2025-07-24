@@ -12,7 +12,7 @@ import SupportPage from "./landing_page/support/SupportPage";
 
 import NotFound from "./landing_page/NotFound";
 // import Navbar from "./landing_page/Navbar";
-import Footer from "./landing_page/Footer";
+// import Footer from "./landing_page/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -27,6 +27,6 @@ root.render(
       <Route path="/support" element={<SupportPage />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
-    <Footer />
+    {/* <Footer /> */}
   </BrowserRouter>
 );

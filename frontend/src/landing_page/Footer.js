@@ -11,45 +11,45 @@ function Footer() {
               &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.
             </p>
           </div>
-          <div className="col">
+          <div className="col" >
             <p>Company</p>
-            <a href="">About</a>
+            <a href="" style={{textDecoration:"none"}}>About</a>
             <br />
-            <a href="">Products</a>
+            <a href="" style={{textDecoration:"none"}}>Products</a>
             <br />
-            <a href="">Pricing</a>
+            <a href="" style={{textDecoration:"none"}}>Pricing</a>
             <br />
-            <a href="">Referral programme</a>
+            <a href="" style={{textDecoration:"none"}}>Referral programme</a>
             <br />
-            <a href="">Careers</a>
+            <a href="" style={{textDecoration:"none"}}>Careers</a>
             <br />
-            <a href="">Zerodha.tech</a>
+            <a href="" style={{textDecoration:"none"} }>Zerodha.tech</a>
             <br />
-            <a href="">Press & media</a>
+            <a href="" style={{textDecoration:"none"}}>Press & media</a>
             <br />
-            <a href="">Zerodha cares (CSR)</a>
+            <a href="" style={{textDecoration:"none"}}>Zerodha cares (CSR)</a>
             <br />
           </div>
           <div className="col">
             <p>Support</p>
-            <a href="">Contact</a>
+            <a href="" style={{textDecoration:"none"}}>Contact</a>
             <br />
-            <a href="">Support portal</a>
+            <a href="" style={{textDecoration:"none"}}>Support portal</a>
             <br />
-            <a href="">Z-Connect blog</a>
+            <a href="" style={{textDecoration:"none"}}>Z-Connect blog</a>
             <br />
-            <a href="">List of charges</a>
+            <a href="" style={{textDecoration:"none"}}>List of charges</a>
             <br />
-            <a href="">Downloads & resources</a>
+            <a href="" style={{textDecoration:"none"}}>Downloads & resources</a>
             <br />
           </div>
           <div className="col">
             <p>Account</p>
-            <a href="">Open an account</a>
+            <a href="" style={{textDecoration:"none"}}>Open an account</a>
             <br />
-            <a href="">Fund transfer</a>
+            <a href="" style={{textDecoration:"none"}}>Fund transfer</a>
             <br />
-            <a href="">60 day challenge</a>
+            <a href="" style={{textDecoration:"none"}}>60 day challenge</a>
             <br />
           </div>
         </div>
@@ -98,6 +98,18 @@ function Footer() {
             claiming to be part of Zerodha and offering such services, please
             create a ticket here.
           </p>
+
+        </div>
+         <div className="text-center text-muted mb-3" style={{ fontSize: "15px" }}>
+          <a href="#" style={{ margin: "0 10px", textDecoration: "none", color: "inherit" }}>NSE</a>
+          <a href="#" style={{ margin: "0 10px", textDecoration: "none", color: "inherit" }}>BSE</a>
+          <a href="#" style={{ margin: "0 10px", textDecoration: "none", color: "inherit" }}>MCX</a>
+          <a href="#" style={{ margin: "0 10px", textDecoration: "none", color: "inherit" }}>Terms & conditions</a>
+          <a href="#" style={{ margin: "0 10px", textDecoration: "none", color: "inherit" }}>Policies & procedures</a>
+          <a href="#" style={{ margin: "0 10px", textDecoration: "none", color: "inherit" }}>Privacy policy</a>
+          <a href="#" style={{ margin: "0 10px", textDecoration: "none", color: "inherit" }}>Disclosure</a>
+          <a href="#" style={{ margin: "0 10px", textDecoration: "none", color: "inherit" }}>For investor's attention</a>
+          <a href="#" style={{ margin: "0 10px", textDecoration: "none", color: "inherit" }}>Investor charter</a>
         </div>
       </div>
     </footer>
